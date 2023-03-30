@@ -1,5 +1,5 @@
-share_link_button.qext;
-share_link_button.js;
-share_link_button.css;
+LinkShare.qext;
+LinkShare.js;
+LinkShare.css;
 button.html;
 propertiesPanel.js

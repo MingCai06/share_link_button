@@ -42,7 +42,7 @@ define([], function() {
                         ref: "props.maxSelected",
                         type: "integer",
                         label: "Max Values Selected in One Field",
-                        defaultValue: "100",
+                        defaultValue: "1000",
                         min: 1
                     },
                     emailRecipients: {
@@ -98,12 +98,11 @@ define([], function() {
                         defaultValue: "#FFFFF"
                     },
                     buttonFontSize: {
-                        ref: "props.font_size",
+						ref: "props.font_size",
                         type: "string",
                         label: "Font Size",
-                        defaultValue: "14px",
-                        align: "center",
-
+                        defaultValue: "25px"
+					    
                     },
                     buttonFontWeight: {
                         ref: "props.font_weight",
@@ -121,13 +120,13 @@ define([], function() {
                         ref: "props.border_color",
                         type: "string",
                         label: "Border Color (Hex)",
-                        defaultValue: "#d9d9d9"
+                        defaultValue: "#008080"
                     },
                     borderStyle: {
                         ref: "props.border_style",
                         type: "string",
                         label: "Border Size / Style",
-                        defaultValue: "2px solid"
+                        defaultValue: "1px solid #d9d9d9"
                     },
                     borderRadius: {
                         ref: "props.border_radius",
